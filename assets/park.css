@@ -1,5 +1,5 @@
 /* ED-PARK: the existing site layout with a light, energetic brochure palette. */
-:root{--ink:#242140;--green:#463582;--paper:#faf7ff;--muted:#59536c;--line:#d9cfe9;--peach:#ffcee3;--mint:#e8e1ff}
+:root{--ink:#242140;--green:#463582;--paper:#f1ecf8;--muted:#59536c;--line:#d9cfe9;--peach:#ffcee3;--mint:#e8e1ff}
 em{color:#6b3b88}a:focus-visible{outline-color:#b52e76}
 .park-mark{display:grid;place-items:center;background:#e8e1ff;color:#7136a2;width:65px;height:65px;border-radius:50%;font-size:53px;line-height:1}
 .brand-location{font-size:26px;letter-spacing:1px}.brand-sub{letter-spacing:0;font-size:11px}
@@ -18,3 +18,4 @@ aside hr{border-color:#c6b5dd}footer p{color:#eee8fa}footer .eyebrow{color:#baf0
 .association-art-label{position:absolute;bottom:30px;right:25px;color:#342554;font-size:12px;letter-spacing:2px;line-height:1.6;font-weight:bold}
 @media(max-width:720px){.park-mark{width:52px;height:52px;font-size:42px}.association-art{height:290px;width:100%;max-width:450px;margin:auto}.association-star{top:65px}.o1{top:20px}.o2{top:60px}.o3{top:150px}.association-art-label{bottom:18px;right:18px}.practical{padding-bottom:45px}.hero .s1{font-size:65px;top:25px}.hero .s2{top:140px;font-size:50px}}
 @media print{.art,.association-art{display:none}}
+
