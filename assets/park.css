@@ -1,0 +1,20 @@
+/* ED-PARK: the existing site layout with a light, energetic brochure palette. */
+:root{--ink:#242140;--green:#463582;--paper:#faf7ff;--muted:#59536c;--line:#d9cfe9;--peach:#ffcee3;--mint:#e8e1ff}
+em{color:#6b3b88}a:focus-visible{outline-color:#b52e76}
+.park-mark{display:grid;place-items:center;background:#e8e1ff;color:#7136a2;width:65px;height:65px;border-radius:50%;font-size:53px;line-height:1}
+.brand-location{font-size:26px;letter-spacing:1px}.brand-sub{letter-spacing:0;font-size:11px}
+.nav-contact,.tags span{border-color:#bfb0d7}.button:hover{background:#633f95}.light{background:#f5efff;color:#463582}.light:hover{background:#dceff3;color:#342554}
+.art{background:#e1d6fa}.sun{background:#ed62a8}.hill-back{background:#96ddeb}.hill-front{background:#bd9ee4}.sea{background:#51428b}.arch{border-color:#ffdb9d}.wave{border-color:#dce5ff}
+.spark{position:absolute;line-height:1}.s1{top:40px;left:32px;font-size:94px;color:#7151a6;transform:rotate(-12deg)}.s2{right:32px;top:190px;font-size:70px;color:#fff4d6}
+.art-caption{color:#fff;font-weight:bold}.ribbon{background:#463582}.ribbon span:before{color:#8ce3dc}
+.feature-symbol,.aside-symbol{color:#71449b}.workshop-icon{background:#e6d9fb}.workshops li:nth-child(3n+2) .workshop-icon{background:#bde9ef}.workshops li:nth-child(3n) .workshop-icon{background:#ffd2e4}
+aside hr{border-color:#c6b5dd}footer p{color:#eee8fa}footer .eyebrow{color:#baf0ef}.footer-bottom{border-color:#8c7cb5}.partners{background:#fff}.partners img{max-width:100%}.mail-hint{margin-top:18px;max-width:340px}
+.compact{padding-top:0}.practical{padding-top:30px;padding-bottom:70px}.practical p{max-width:760px}
+.association-hero{padding-top:35px}.association-hero h1{font-size:clamp(40px,4.5vw,64px)}
+.association-art{position:relative;height:400px;background:#e8e1ff;overflow:hidden;border-radius:200px 200px 20px 20px;isolation:isolate}
+.orbit{position:absolute;width:210px;height:210px;border:34px solid;border-radius:50%;transform:rotate(-30deg)}
+.o1{border-color:#91dce7;top:50px;left:5px}.o2{border-color:#f6a9ce;top:110px;right:-20px}.o3{border-color:#bd9ee4;top:210px;left:0}
+.association-star{position:absolute;font-size:130px;color:#463582;line-height:1;top:95px;left:calc(50% - 65px)}
+.association-art-label{position:absolute;bottom:30px;right:25px;color:#342554;font-size:12px;letter-spacing:2px;line-height:1.6;font-weight:bold}
+@media(max-width:720px){.park-mark{width:52px;height:52px;font-size:42px}.association-art{height:290px;width:100%;max-width:450px;margin:auto}.association-star{top:65px}.o1{top:20px}.o2{top:60px}.o3{top:150px}.association-art-label{bottom:18px;right:18px}.practical{padding-bottom:45px}.hero .s1{font-size:65px;top:25px}.hero .s2{top:140px;font-size:50px}}
+@media print{.art,.association-art{display:none}}
